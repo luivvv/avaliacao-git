@@ -44,3 +44,13 @@ addTextBtn.addEventListener('click', function() {
     // Adiciona o novo parágrafo como um "filho" do contêiner de texto
     textContainer.appendChild(newParagraph);
 });
+//estrutura de repetição
+while (numero < 1 || numero > 10) {
+    numero = parseInt(prompt("Digite um número entre 1 e 10:"));
+
+    if (numero >= 1 && numero <= 10) {
+        mensagem.textContent = "Número aceito!";
+    } else {
+        alert("Número inválido! Tente novamente.");
+    }
+}
